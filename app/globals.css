@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.grad2 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #333333;
+    -webkit-text-stroke-width: 2px;
+  }
