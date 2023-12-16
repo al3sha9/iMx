@@ -6,6 +6,8 @@ import { FaGlobe } from "react-icons/fa";
 import { Services } from "@/components/services/Services";
 import { Expertise } from "@/components/expertise/exertise";
 import { Products } from "@/components/products/products";
+import { Clients } from "@/components/clients/clients";
+import { Traction } from "@/components/traction/traction";
 
 
 
@@ -219,6 +221,8 @@ export default function Home() {
       <Services />
       <Expertise />
       <Products />
+      <Clients />
+      <Traction />
     </>
   )
 }

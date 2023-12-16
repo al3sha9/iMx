@@ -13,7 +13,7 @@ const ProductSlide = ({ data }) => {
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-[#132849] w-[50%] mx-auto py-2 rounded text-center text-white font-light"
+        className="bg-[#132849] hover:bg-transparent hover:text-[#132849] hover:border-[#132849] shadow-md border w-[50%] mx-auto py-2 rounded text-center text-white font-light"
       >
         LEARN MORE
       </a>
