@@ -3,6 +3,7 @@ import { FaBehance, FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiUpwork } from "react-icons/si";
 import { FaGlobe } from "react-icons/fa";
+import { Services } from "@/components/services/Services";
 
 
 
@@ -209,17 +210,11 @@ export default function Home() {
             <a href="https://www.upwork.com/agencies/ideometrix/" target="_blank" rel="norefferer"><SiUpwork className="text-white p-[6px] rounded-md mx-1 bg-[#14a400] text-4xl" /></a>
             <a href="https://www.facebook.com/IdeoMetriX" target="_blank" rel="norefferer"><FaFacebook className="text-white p-[6px] rounded-md mx-1 bg-[#507dce] text-4xl" /></a>
             <a href="https://www.instagram.com/IdeoMetriX/" target="_blank" rel="norefferer"><FaInstagram className="text-white p-[6px] rounded-md mx-1 bg-[#ff796c] text-4xl" /></a>
-
-
-            
-            
-            
-
-
           </section>
         </header>
       </main>
       <Overview />
+      <Services />
     </>
   )
 }

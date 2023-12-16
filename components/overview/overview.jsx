@@ -1,16 +1,12 @@
 import React from "react";
+import TitleSection from "../heading";
 
 export const Overview = () => {
   return (
     <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-10">
-      <div>
-      <h2 className="font-medium text-4xl ">COMPANY</h2>
-          <h2 className="grad2 text-6xl md:text-7xl font-bold">OVERVIEW</h2>
-      </div>
+      <TitleSection firstTitle="COMPANY" secondTitle="OVERVIEW" />
       <div className="flex flex-col md:flex-row">
-        <div className="md:w-[40%]">
-          
-        </div>
+        <div className="md:w-[40%]"></div>
         <div className="md:w-[60%] md:px-6">
           <h3 className="py-2 font-light text-base lg:text-lg text-justify">
             IdeoMetriX, founded in 2020, has rapidly evolved into a dynamic
