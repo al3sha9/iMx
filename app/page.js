@@ -8,6 +8,7 @@ import { Expertise } from "@/components/expertise/exertise";
 import { Products } from "@/components/products/products";
 import { Clients } from "@/components/clients/clients";
 import { Traction } from "@/components/traction/traction";
+import { Team } from "@/components/team/team";
 
 
 
@@ -205,7 +206,6 @@ export default function Home() {
                 <h1 className="font-bold text-7xl text-white leading-[1.3]">With Design</h1>
               </div>
             </div>
-            {/* <div className=' flex flex-col'>Bridging <br />with Design</div> */}
           </section>
           <section className='socials flex justify-end items-end h-[20%]'>
             <a href="https://www.ideometrix.com/" target="_blank" rel="norefferer"><FaGlobe className="text-white p-[6px] rounded-md mx-1 bg-[#cc8627] text-4xl" /></a>
@@ -223,6 +223,7 @@ export default function Home() {
       <Products />
       <Clients />
       <Traction />
+      <Team />
     </>
   )
 }
