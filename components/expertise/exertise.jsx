@@ -34,42 +34,42 @@ export const Expertise = () => {
               dolore te
             </p>
           </div>
-          <div className="w-full  md:justify-center flex  flex-wrap md:w-1/2">
-            <div className=" m-2 md:m-0 md:w-1/5 md:flex md:justify-center">
-              <SiAdobephotoshop className="text-4xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
+          <div className="w-full justify-center flex  flex-wrap md:w-1/2">
+            <div className=" m-2 md:m-0 md:w-1/5 md:flex  md:justify-center">
+              <SiAdobephotoshop className="text-6xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
             </div>
             <div className=" m-2 md:m-0 md:w-1/5 md:flex md:justify-center">
-              <SiJavascript className="text-4xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
+              <SiJavascript className="text-6xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
             </div>
             <div className=" m-2 md:m-0 md:w-1/5 md:flex md:justify-center">
-              <SiReact className="text-4xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
+              <SiReact className="text-6xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
             </div>
             <div className=" m-2 md:m-0 md:w-1/5 md:flex md:justify-center">
-              <SiAdobepremierepro className="text-4xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
+              <SiAdobepremierepro className="text-6xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
             </div>
             <div className=" m-2 md:m-0 md:w-1/5 md:flex md:justify-center">
-              <SiHtml5 className="text-4xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
+              <SiHtml5 className="text-6xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
             </div>
             <div className=" m-2 md:m-0 md:w-1/5 md:flex md:justify-center">
-              <SiAdobeindesign className="text-4xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
+              <SiAdobeindesign className="text-6xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
             </div>
             <div className=" m-2 md:m-0 md:w-1/5 md:flex md:justify-center">
-              <SiAdobexd className="text-4xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
+              <SiAdobexd className="text-6xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
             </div>
             <div className=" m-2 md:m-0 md:w-1/5 md:flex md:justify-center">
-              <SiMeta className="text-4xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
+              <SiMeta className="text-6xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
             </div>
             <div className=" m-2 md:m-0 md:w-1/5 md:flex md:justify-center">
-              <SiFigma className="text-4xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
+              <SiFigma className="text-6xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
             </div>
             <div className=" m-2 md:m-0 md:w-1/5 md:flex md:justify-center">
-              <SiNodedotjs className="text-4xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
+              <SiNodedotjs className="text-6xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
             </div>
             <div className=" m-2 md:m-0 md:w-1/5 md:flex md:justify-center">
-              <SiAdobeillustrator className="text-4xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
+              <SiAdobeillustrator className="text-6xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
             </div>
             <div className=" m-2 md:m-0 md:w-1/5 md:flex md:justify-center">
-              <SiCss3 className="text-4xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
+              <SiCss3 className="text-6xl md:text-8xl hover:scale-105 hover:cursor-pointer" />
             </div>
           </div>
         </div>
