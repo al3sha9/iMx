@@ -1,7 +1,6 @@
 import React from "react";
 import TitleSection from "../heading";
 import {
-  SiAdobe,
   SiAdobeillustrator,
   SiAdobeindesign,
   SiAdobephotoshop,
@@ -13,10 +12,8 @@ import {
   SiJavascript,
   SiMeta,
   SiNodedotjs,
-  SiPremierleague,
   SiReact,
 } from "react-icons/si";
-import { FaHtml5 } from "react-icons/fa";
 
 export const Expertise = () => {
   return (

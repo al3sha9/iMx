@@ -5,6 +5,7 @@ import { SiUpwork } from "react-icons/si";
 import { FaGlobe } from "react-icons/fa";
 import { Services } from "@/components/services/Services";
 import { Expertise } from "@/components/expertise/exertise";
+import { Products } from "@/components/products/products";
 
 
 
@@ -217,6 +218,7 @@ export default function Home() {
       <Overview />
       <Services />
       <Expertise />
+      <Products />
     </>
   )
 }

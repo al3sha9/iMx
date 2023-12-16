@@ -17,11 +17,7 @@ export const Services = () => {
                 : "bg-[#e6e6e6] my-2 md:my-0 py-6 px-4"
             }
           >
-            <Image
-            width={150}
-              src={service.image}
-              alt={service.title}
-            />
+            <Image width={150} src={service.image} alt={service.title} />
             <h3 className="font-bold text-3xl">{service.title}</h3>
             <p className="text-light font-extralight">{service.description}</p>
           </div>
