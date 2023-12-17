@@ -18,7 +18,11 @@ export const Traction = () => {
               suffix="+"
               className="font-bold text-7xl text-[#cc8627]"
             ></CountUp>
-            <h4 className="font-medium text-3xl">Direct Jobs<br/>Created</h4>
+            <h4 className="font-medium text-3xl">
+              Direct Jobs
+              <br />
+              Created
+            </h4>
             <h5>50% Women</h5>
           </div>
           <div className="md:w-1/5 w-1/2 text-center py-3 md:py-0">
@@ -29,7 +33,11 @@ export const Traction = () => {
               suffix="+"
               className="font-bold text-7xl text-[#cc8627]"
             ></CountUp>
-            <h4 className="font-medium text-3xl">Satisfied<br/>Clients</h4>
+            <h4 className="font-medium text-3xl">
+              Satisfied
+              <br />
+              Clients
+            </h4>
           </div>
           <div className="md:w-1/5 w-1/2 text-center py-3 md:py-0">
             <CountUp
@@ -39,7 +47,11 @@ export const Traction = () => {
               suffix="+"
               className="font-bold text-7xl text-[#cc8627]"
             ></CountUp>
-            <h4 className="font-medium text-3xl">Projects<br/>Completed</h4>
+            <h4 className="font-medium text-3xl">
+              Projects
+              <br />
+              Completed
+            </h4>
           </div>
           <div className="md:w-1/5 w-1/2 text-center py-3 md:py-0">
             <CountUp
@@ -47,7 +59,11 @@ export const Traction = () => {
               duration={2.75}
               className="font-bold text-7xl text-[#cc8627]"
             ></CountUp>
-            <h4 className="font-medium text-3xl">Training<br/>Programs</h4>
+            <h4 className="font-medium text-3xl">
+              Training
+              <br />
+              Programs
+            </h4>
           </div>
           <div className="md:w-1/5 w-1/2 text-center py-3 md:py-0">
             <CountUp
@@ -57,7 +73,11 @@ export const Traction = () => {
               suffix="+"
               className="font-bold text-7xl text-[#cc8627]"
             ></CountUp>
-            <h4 className="font-medium text-3xl">Applicants<br/>Trained</h4>
+            <h4 className="font-medium text-3xl">
+              Applicants
+              <br />
+              Trained
+            </h4>
             <h5>37% Women</h5>
           </div>
         </div>

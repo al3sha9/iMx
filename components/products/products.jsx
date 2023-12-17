@@ -4,7 +4,7 @@ import TitleSection from "../heading";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import { productsData } from "./slider/prod"; // Adjust the path accordingly
+import { productsData } from "./slider/prod";
 import ProductSlide from "./slider/prodslide";
 
 export const Products = () => {

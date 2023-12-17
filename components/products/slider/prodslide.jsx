@@ -22,4 +22,3 @@ const ProductSlide = ({ data }) => {
 };
 
 export default ProductSlide;
-
