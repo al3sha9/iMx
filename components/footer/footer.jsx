@@ -1,26 +1,20 @@
-import { Overview } from "@/components/overview/overview";
-import { FaBehance, FaFacebook, FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { SiUpwork } from "react-icons/si";
-import { FaGlobe } from "react-icons/fa";
-import { Services } from "@/components/services/Services";
-import { Expertise } from "@/components/expertise/exertise";
-import { Products } from "@/components/products/products";
-import { Clients } from "@/components/clients/clients";
-import { Traction } from "@/components/traction/traction";
-import { Team } from "@/components/team/team";
-import { Footer } from "@/components/footer/footer";
+import Image from "next/image";
+import React from "react";
+import SEC from '../../public/secp-logo.png'
+import {
+  FaLocationArrow,
+  FaMousePointer,
+  FaPhone,
+  FaSearchLocation,
+} from "react-icons/fa";
+import { Si1Password, SiGmail } from "react-icons/si";
 
-
-
-
-export default function Home() {
+export const Footer = () => {
   return (
-    <>
-      <main className=" bg-[url(../public/bg.jpg)] bg-cover bg-right md:bg-center">
-        <header className='px-4 pt-10 pb-5 h-[100vh] md:h-[70vh] mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl  lg:px-8 '>
-          <div className='logo h-[20%]'>
-            {/* <img src={Logo} width={200} height={100} alt="LOGO IMX" /> */}
+    <footer className="bg-[#132849]">
+      <div className="px-4 space-y-2 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-10">
+        <div className="w-full justify-center space-y-4 md:space-y-0 flex flex-col md:flex-row">
+          <div className="md:w-1/3 w-full items-center flex">
             <svg
               className="h-100 w-100 md:w-[400px]"
               viewBox="0 0 214 40"
@@ -193,39 +187,79 @@ export default function Home() {
               />
             </svg>
           </div>
-          <section className='h-[60%] flex justify-start items-center'>
-            <div className="flex flex-col">
-              <div className="flex flex-wrap flex-row">
-                <div>
-                  <h1 className="font-bold  text-7xl text-white leading-[1.3]">Bridging</h1>
-                </div>
-                <div className="m-3 px-4 md:-rotate-6 bg-[#cc8627]">
-                  <span className="font-bold text-7xl text-white leading-[1.3] ">Ideas</span>
-                </div>
+          <div className="w-full md:w-1/3 text-center items-center  flex flex-col">
+            <h4 className="text-lg text-white font-light hover:underline">REGISTERED WITH</h4>
+            <div className="py-2">
+                <Image width={100} height={100} src={SEC} alt="sec" />
+            </div>
+          </div>
+          <div className="w-full md:w-1/3 flex flex-col">
+            <div className="w-full flex flex-row">
+              <div className="w-1/12  flex justify-end py-2 mx-2 items-center ">
+                <FaPhone className="bg-white text-2xl text-[#132849] p-1 rounded-full" />
               </div>
-              <div>
-                <h1 className="font-bold text-7xl text-white leading-[1.3]">With Design</h1>
+              <div className="w-11/12">
+                <a
+                  href="tel:+923445448152"
+                  className="text-lg text-white font-light hover:underline"
+                  target="_blank"
+                  rel="norefferer"
+                >
+                  +923445448152
+                </a>
               </div>
             </div>
-          </section>
-          <section className='socials flex justify-end items-end h-[20%]'>
-            <a href="https://www.ideometrix.com/" target="_blank" rel="norefferer"><FaGlobe className="text-white p-[6px] rounded-md mx-1 bg-[#cc8627] text-4xl" /></a>
-            <a href="https://www.linkedin.com/company/ideometrix/" target="_blank" rel="norefferer"><FaLinkedin className="text-white p-[6px] rounded-md mx-1 bg-[#2763af] text-4xl" /></a>
-            <a href="https://www.behance.net/ideometrixteam" target="_blank" rel="norefferer"><FaBehance className="text-white p-[6px] rounded-md mx-1 bg-[#1d70f6] text-4xl" /></a>
-            <a href="https://www.upwork.com/agencies/ideometrix/" target="_blank" rel="norefferer"><SiUpwork className="text-white p-[6px] rounded-md mx-1 bg-[#14a400] text-4xl" /></a>
-            <a href="https://www.facebook.com/IdeoMetriX" target="_blank" rel="norefferer"><FaFacebook className="text-white p-[6px] rounded-md mx-1 bg-[#507dce] text-4xl" /></a>
-            <a href="https://www.instagram.com/IdeoMetriX/" target="_blank" rel="norefferer"><FaInstagram className="text-white p-[6px] rounded-md mx-1 bg-[#ff796c] text-4xl" /></a>
-          </section>
-        </header>
-      </main>
-      <Overview />
-      <Services />
-      <Expertise />
-      <Products />
-      <Clients />
-      <Traction />
-      <Team />
-      <Footer />
-    </>
-  )
-}
+
+            <div className="w-full flex flex-row">
+              <div className="w-1/12  flex justify-end py-2 mx-2 items-center ">
+                <SiGmail className="bg-white text-2xl text-[#132849] p-1 rounded-full" />
+              </div>
+              <div className="w-11/12">
+                <a
+                  href="mailto:info@ideomatrix.com"
+                  className="text-lg text-white font-light hover:underline"
+                  target="_blank"
+                  rel="norefferer"
+                >
+                  info@ideomatrix.com
+                </a>
+              </div>
+            </div>
+            <div className="w-full flex flex-row">
+              <div className="w-1/12  flex justify-end py-2 mx-2 items-center ">
+                <FaMousePointer className="bg-white text-2xl text-[#132849] p-1 rounded-full" />
+              </div>
+              <div className="w-11/12">
+                <a
+                  href="http://www.ideometrix.com/"
+                  className="text-lg text-white font-light hover:underline"
+                  target="_blank"
+                  rel="norefferer"
+                >
+                  http://www.ideometrix.com/
+                </a>
+              </div>
+            </div>
+
+            <div className="w-full flex flex-row">
+              <div className="w-1/12  flex justify-end py-2 mx-2 items-start ">
+                <FaLocationArrow className="bg-white text-2xl text-[#132849] p-1 rounded-full" />
+              </div>
+              <div className="w-11/12">
+                <a
+                  href="goo.gl"
+                  className="text-lg text-white font-light hover:underline"
+                  target="_blank"
+                  rel="norefferer"
+                >
+                  Ideometrix Office, Naveed Shaheed Road, Sonikote, Gilgit,
+                  Gilgit Baltistan
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};

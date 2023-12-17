@@ -19,7 +19,7 @@ export const Expertise = () => {
   return (
     <>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-10">
-        <div className="w-full flex flex-col md:flex-row space-x-2">
+        <div className="w-full flex flex-col md:flex-row md:space-x-2">
           <div className="w-full md:w-1/2">
             <TitleSection firstTitle="OUR" secondTitle="EXPERTISE" />
             <p className="py-2 font-light text-base lg:text-lg md:pe-16 text-justify">

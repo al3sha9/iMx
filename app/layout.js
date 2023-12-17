@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: 'iMx',
+  title: 'iMx | IdeoMatrix',
   description: 'We assist businesses in building their online presence by offering Digital Consultancies and software solutions.',
 }
 
