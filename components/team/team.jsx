@@ -85,6 +85,20 @@ export const Team = () => {
         ))}
       </div>
       <TeamSlider />
+      <div className="md:w-[80%] mx-auto  py-4 md:py-14 text-center">
+        <h4 className="font-light text-2xl">
+          At IdeoMetriX, our success is driven by the expertise and dedication
+          of our diverse team. With over 40 highly trained individuals spanning
+          various domains, including 15+ top-rated freelancers, we bring a
+          wealth of experience to the table. Our team is composed of highly
+          qualified individuals with years of hands-on experience, having worked
+          with local, national, and international organizations.
+        </h4>
+      </div>
+      <div className="w-full text-center flex justify-center md:flex-none flex-wrap md:space-y-0 space-y-4 md:space-x-2">
+        <a href="https://www.ideometrix.com/" className="bg-[#cc8627] py-6 px-16 font-extrabold text-2xl rounded-md text-white" target="_blank" rel="norefferer">Learn More</a>
+        <a href="https://drive.google.com/file/d/1K0mE65eUXJ7vxMF2Ntsnb9r1ynKrSi7H/view" className="bg-[#132849] py-6 px-16 font-extrabold text-2xl rounded-md text-white" target="_blank" rel="norefferer">Company Profile</a>
+      </div>
     </div>
   );
 };

@@ -127,7 +127,7 @@ const TeamSlider = () => {
                 />
               </div>
               <div>
-                <h3 className="text-2xl font-semibold md:pt-6 pt-4">
+                <h3 className="text-2xl text-[#132849] font-semibold md:pt-6 pt-4">
                   {member.name}
                 </h3>
                 <h4 className="py-2 text-xl">{member.role}</h4>
